@@ -1,0 +1,46 @@
+# Ongoing DRDO project — never commit proprietary or project data
+
+# MSC Adams files
+*.adm
+*.acf
+*.cmd
+*.req
+*.res
+*.gra
+*.msg
+*.out
+*.bin
+
+# CAD / geometry
+*.x_t
+*.x_b
+*.step
+*.stp
+*.iges
+*.igs
+*.stl
+*.prt
+*.asm
+*.sldprt
+*.sldasm
+*.catpart
+*.catproduct
+
+# Results, data, exports (docs/*.png diagrams are committed intentionally)
+data/
+results/
+*.csv
+*.mat
+*.xlsx
+
+# Reports / internal docs
+reports/
+*.pdf
+*.docx
+*.pptx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
