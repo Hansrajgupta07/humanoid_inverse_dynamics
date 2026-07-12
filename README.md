@@ -1,4 +1,4 @@
-# Humanoid Inverse Dynamics — Multibody Dynamics Workflow
+# Humanoid Inverse Dynamics - Multibody Dynamics Workflow
 
 Inverse dynamics and multibody dynamics workflow for **bipedal humanoid robots**,
 built in **MSC Adams**, focusing on **joint torque estimation** for a lower-limb
@@ -16,11 +16,11 @@ humanoid platform.
 The goal is to estimate how much torque each joint (hip, knee, ankle) needs to
 produce a prescribed motion. **Inverse dynamics** solves for the joint torques and
 reaction forces required to generate that motion. Those torque profiles feed real
-design decisions — actuator and gearbox selection, structural sizing, and power
+design decisions actuator and gearbox selection, structural sizing, and power
 budgeting.
 
 The leg is modelled as a **multibody system** of rigid links connected by joints,
-with mass and inertia on each body and foot–ground contact defined. **MSC Adams**
+with mass and inertia on each body and foot ground contact defined. **MSC Adams**
 assembles the model, drives it along the prescribed motion, and solves the
 equations of motion to recover the joint torques.
 
@@ -61,9 +61,9 @@ humanoid-inverse-dynamics-workflow/
 ## Confidentiality
 
 The diagrams above are generic and contain no project geometry, parameters, or
-results. Because the DRDO project is ongoing, all proprietary content — CAD,
+results. Because the DRDO project is ongoing, all proprietary content - CAD,
 MSC Adams files, numerical results, dimensions, mass properties, and controller
-parameters — is deliberately excluded.
+parameters is deliberately excluded.
 
 ## License
 
