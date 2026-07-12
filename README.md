@@ -26,7 +26,7 @@ equations of motion to recover the joint torques.
 
 ## Multibody model
 
-![Generic multibody model of a lower limb](docs/humanoid_cad_1 (2).png)
+![Generic multibody model of a lower limb](docs/humanoid_cad_1.png)
 
 ## Workflow
 
